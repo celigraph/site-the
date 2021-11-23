@@ -142,6 +142,7 @@ header {
     color: #2cb42c;
     margin-right: 15px;
     margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .btn-ghost {
@@ -158,6 +159,7 @@ header {
     background-color: #2cb42c;
     border: 1px solid #2cb42c;
     color: #fff;
+    
 }
 
 /*PRODUITS
@@ -407,7 +409,7 @@ cite img {
 =========================*/
 
 footer {
-    background-color: cadetblue ;
+    background-color: #bac9ba;
     color:#fff;
     height: 60px;
     padding: 20px 20px;
