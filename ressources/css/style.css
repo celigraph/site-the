@@ -159,7 +159,7 @@ header {
     background-color: #2cb42c;
     border: 1px solid #2cb42c;
     color: #fff;
-    
+
 }
 
 /*PRODUITS
@@ -169,7 +169,7 @@ header {
 }
 
 .produits-plus:hover .produits-icon {
-    color: #4a814a;
+    color: #bac9ba;
     transform: translateX(20px);
 }
 
@@ -180,7 +180,7 @@ header {
 
 .produits-icon {
     font-size: 34px;
-    color: #32bc32;
+    color: #82a598;
     transition: all 1s;
 }
 
@@ -197,7 +197,7 @@ header {
     background-color: #fff;
     padding: 40px 30px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgb(0, 0, 0, 0.3); 
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
     margin-bottom: 35px;
 }
 
@@ -287,8 +287,12 @@ cite img {
 }
 
 .pack h3 {
-    color: #bac9ba;
+    color: #82a598;
     font-weight: 400;
+}
+
+.pack-selection h3 {
+    color:#fff;
 }
 
 .pack h4 {
@@ -312,8 +316,8 @@ cite img {
 
 .pack-titre {
     padding: 30px 30px 0 30px;
-    border-bottom: 1px solid #bac9ba;  
-    }
+    border-bottom: 1px solid #bac9ba;
+}
 
 .pack-titre-premium {
     position: relative;
@@ -365,12 +369,13 @@ cite img {
 }
 
 .pack-signup:hover .btn-pack {
-    background-color: darkseagreen;
+    background-color: #bac9ba;
     color: #fff;
 }
 
 .btn-pack {
-    background-color: #bac9ba;
+    background-color: #82a598;
+    border: 1px solid #fff;
     color: #fff;
     margin: 20px;
 }
@@ -383,10 +388,10 @@ cite img {
 }
 
 .contact-message {
-    width: 100;    
+    width: 100;
 }
 
-  /*.btn-contact {
+/*.btn-contact {
     background-color: #bac9ba;
     color: #fff;
     margin: 20px;
@@ -401,7 +406,7 @@ cite img {
 }
 
 .form-label {
-   margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 
@@ -409,17 +414,16 @@ cite img {
 =========================*/
 
 footer {
-    background-color: #bac9ba;
-    color:#fff;
+    background-color: #82a598;
+    color: #fff;
     height: 60px;
     padding: 20px 20px;
 }
 
 .copyright {
-    text-align: center; 
+    text-align: center;
 }
 
 .copyright a {
     color: #fff;
-    
 }
