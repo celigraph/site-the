@@ -1,0 +1,423 @@
+/* DOCUMENT INFORMATION
+    -Document: thés thèmes
+    -Version: 1.0.0
+    -Author: Céline
+*/
+
+/*COLORS
+    -defaut body text #eee
+    -h1                 #eee
+    -h2                 #333333
+    -h3 
+    
+    -button
+    -button: hover
+
+    -icon        #32bc32
+    -border
+*/
+
+/*FONTS
+    -default
+    -subtitle
+*/
+
+/*CSS DIRECTORY
+    1.=GLOBAL
+    2.=HEADER
+    3.=PRODUITS
+*/
+
+/*GLOBAL
+=========================*/
+
+html {
+    background-color: #fff
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'lato', 'arial', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 300;
+    word-spacing: 8px;
+}
+
+h1 {
+    color: #eee;
+}
+
+h2 {
+    color: #333333;
+    font-size: 250%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: green;
+    width: 100px;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 10px
+}
+
+h3 {
+    font-size: 160%;
+}
+
+p {
+    font-size: 12 px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.img-fixe {
+    transform: rotate(90deg);
+}
+
+section {
+    padding: 30px 0 60px 0;
+}
+
+/*
+img
+{
+    rotate: 90deg;
+}
+img:hover {
+  transform: scaleX(-1);
+}
+*/
+/* HEADER
+=========================*/
+
+header {
+    /*  background-image: linear-gradient(to right, rgba(0,242,96,0.4), rgba(7,117,230,0.6)) , url(../images/header.jpg);*/
+    background-image: linear-gradient(rgba(0, 242, 96, 0.4), rgba(7, 117, 230, 0.6)), url(../images/header-3.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.home-title {
+    position: absolute;
+    top: 30%;
+}
+
+
+.home-title h1 {
+    font-size: 340%;
+    color: #fff;
+}
+
+
+.home-title h1 span {
+    font-weight: 700;
+}
+
+
+.home-title p {
+    color: #fff
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 1s, color 1s, border 1s;
+}
+
+.btn-full {
+    background-color: azure;
+    color: #2cb42c;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.btn-ghost {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.btn-full: hover {
+    background-color: #2cb42c;
+    color: #fff;
+}
+
+.btn-ghost: hover {
+    background-color: #2cb42c;
+    border: 1px solid #2cb42c;
+    color: #fff;
+}
+
+/*PRODUITS
+=========================*/
+.produits-plus {
+    margin: 20px 0;
+}
+
+.produits-plus:hover .produits-icon {
+    color: #4a814a;
+    transform: translateX(20px);
+}
+
+.produits-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.produits-icon {
+    font-size: 34px;
+    color: #32bc32;
+    transition: all 1s;
+}
+
+/*FAMILLE THE
+=========================*/
+
+.famille-the {
+    background-color: #bac9ba;
+    ;
+    /*#cdf6el*/
+}
+
+.famille-details {
+    background-color: #fff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.3); 
+    margin-bottom: 35px;
+}
+
+.famille-details img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.famille-details h4 {
+    text-align: center
+}
+
+
+/*GALERIES PHOTOS
+=========================*/
+
+.galeries-img {
+    display: block;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+}
+
+.galeries-titre {
+    position: relative;
+    bottom: -260px;
+    left: 20px;
+    color: #fff;
+
+}
+
+/*CLIENTS 
+=========================*/
+
+.clients {
+    background-image: linear-gradient(rgba(186, 201, 186, 0.8), rgba(134, 149, 134, 0.9)),
+        url(../images/Avis-clients/the-paysage.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.clients h2 {
+    color: #fff;
+}
+
+blockquote {
+    padding: 5px;
+    font-style: italic;
+    line-height: 130%;
+    color: #fff;
+}
+
+blockquote:before {
+    content: "\00ab";
+    font-size: 50px;
+    font-family: "source+sans+pro", sans-serif;
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -30px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+cite {
+    font-size: 90%;
+    display: block;
+    margin-top: 20px;
+}
+
+cite img {
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* PACKS
+=========================*/
+
+.pack {
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-bottom: 35px;
+}
+
+.pack h3 {
+    color: #bac9ba;
+    font-weight: 400;
+}
+
+.pack h4 {
+    font-size: 200%;
+    font-weight: 100;
+    margin: 20px 0 0 0;
+}
+
+.pack span {
+    font-weight: 100;
+    font-size: 40%;
+    position: relative;
+    top: -15px;
+    left: 2px;
+}
+
+.pack-premium {
+    background-color: #82a598;
+    color: #fff;
+}
+
+.pack-titre {
+    padding: 30px 30px 0 30px;
+    border-bottom: 1px solid #bac9ba;  
+    }
+
+.pack-titre-premium {
+    position: relative;
+    margin-left: 200px;
+    top: -125px;
+    text-align: center;
+    background-color: #fff;
+    padding: 2px;
+    color: #82a598;
+    border-radius: 10px;
+    font-size: 12px;
+    /*font-weight: 400;*/
+}
+
+/*.pack-titre-premium-2
+{
+    position: relative;
+    top: -125px;
+    left: 130px; 
+    width: 170px;
+    height: 30px;
+    line-height: 1.5;
+    background-color: #fff;
+    color: green;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px 0;
+    background-color: #fff;
+    color: green;
+    border-radius: 10px;
+    font-size: 12px; 
+}*/
+
+.pack-content ul {
+    list-style: none;
+    padding: 20px;
+    font-weight: 300;
+    line-height: 35px;
+}
+
+.pack-content ul li i {
+    font-size: 90%;
+    margin-right: 10px;
+}
+
+.pack-signup {
+    text-align: center;
+}
+
+.pack-signup:hover .btn-pack {
+    background-color: darkseagreen;
+    color: #fff;
+}
+
+.btn-pack {
+    background-color: #bac9ba;
+    color: #fff;
+    margin: 20px;
+}
+
+/* CONTACTS
+=========================*/
+
+.contact-form {
+    margin-bottom: 30px;
+}
+
+.contact-message {
+    width: 100;    
+}
+
+  /*.btn-contact {
+    background-color: #bac9ba;
+    color: #fff;
+    margin: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    box-shadow: 10px;
+
+  
+    padding: 10px 30px;
+    border-radius: 10px;*/
+
+}
+
+.form-label {
+   margin-bottom: 0.5rem;
+}
+
+
+/* HEADER
+=========================*/
+
+footer {
+    background-color: cadetblue ;
+    color:#fff;
+    height: 60px;
+    padding: 20px 20px;
+}
+
+.copyright {
+    text-align: center; 
+}
+
+.copyright a {
+    color: #fff;
+    
+}
